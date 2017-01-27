@@ -24,6 +24,8 @@ public class Categories extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
 
+        System.out.println("TEST");
+
         Button food_btn = (Button)findViewById(R.id.food_btn);
         Button movie_btn = (Button)findViewById(R.id.movie_btn);
         Button chill_btn = (Button)findViewById(R.id.chill_btn);
